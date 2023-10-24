@@ -37,6 +37,42 @@
         </div>
     </header>
 
+    <div class="mobile-navigation" aria-label="mobile-navigation">
+        <label for="toggler-id" aria-label="open-close mobile-navigation menu">
+            <svg class="mobile-navigation-burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+        <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+            <ul class="mobile-navigation-list" aria-label="mob header navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+                <svg class="mobile-navigation-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main aria-label="main">
         <section class="home" aria-label="home section" id="home-id">
             <div class="container">
@@ -82,18 +118,16 @@
             <div class="container">
                 <h2 class="portfolio-title">Portfolio</h2>
                 <img src="assets/webp/portfolio_1.webp" alt="Winter wagon train on the way" class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. |
-                    Winter wagon train on the way, 1857</p>
+                <p class="portfolio-description" aria-label="picture 1 description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
                 <img src="assets/webp/portfolio_2.webp" alt="Rainbow" class="portfolio-picture">
                 <p class="portfolio-description" aria-label="picture 2 description">Радуга, 1873 г. | Rainbow, 1873</p>
                 <img src="assets/webp/portfolio_3.webp" alt="Gulf of Naples in the morning" class="portfolio-picture">
-                <p class="portfolio-description" aria-label="picture 3 description">Неаполитанский залив утром, 1893 г.
-                    | Gulf of Naples in the morning, 1893</p>
+                <p class="portfolio-description" aria-label="picture 3 description">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
             </div>
         </section>
     </main>
 
-    <footer class="contacts" arial-label="contacts section" id="contacts-id">
+    <footer class="contacts" aria-label="contacts section" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title">Contacts</h2>
             <button class="contacts-button">
